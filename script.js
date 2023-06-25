@@ -18,7 +18,7 @@ const getWeather = (city) => {
         if(response.error){
 
             
-            citySound.innerHTML='City is not found, please try with differnt city';
+            citySound.innerHTML='City is not found, please try with different city';
             
             cloud_pct.innerHTML= ""
             temp.innerHTML= ""
