@@ -20,16 +20,16 @@ const getWeather = (city) => {
             
             citySound.innerHTML='City is not found, please try with different city';
             
-            cloud_pct.innerHTML= ""
-            temp.innerHTML= ""
-            feels_like.innerHTML=  ""
-            // humidity.inneHTML= ""
-            min_temp.innerHTML= ""
-            max_temp.innerHTML=  ""
-            wind_speed.innerHTML=  ""
-            wind_degrees.innerHTML=  ""
-            sunrise.innerHTML= ""
-            sunset.innerHTML= ""  
+            cloud_pct.innerHTML= "0"
+            temp.innerHTML= "0"
+            feels_like.innerHTML=  "0"
+            // humidity.inneHTML= "0"
+            min_temp.innerHTML= "0"
+            max_temp.innerHTML=  "0"
+            wind_speed.innerHTML=  "0"
+            wind_degrees.innerHTML=  "0"
+            sunrise.innerHTML= "0"
+            sunset.innerHTML= "0"  
              
         }else{
             citySound.innerHTML='';
